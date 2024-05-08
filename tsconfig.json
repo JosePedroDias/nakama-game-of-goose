@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "alwaysStrict": true,
+    "lib": ["es2017"], // todo confirm nakama likes Object.entries?
+    "forceConsistentCasingInFileNames": true,
+    "outFile": "../goose.js",
+    "typeRoots": ["./node_modules"]
+  },
+  "files": [
+    "./src/main.ts",
+    "./src/messages.ts",
+    "./src/match_rpc.ts",
+    "./src/match_handler.ts"
+  ]
+}

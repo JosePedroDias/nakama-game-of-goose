@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "goose",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "nakama-runtime": "github:heroiclabs/nakama-common"
+  }
+}
